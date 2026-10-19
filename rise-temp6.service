@@ -1,6 +1,6 @@
 [Unit]
 Description=Rise Mode Temp 6 display
-After=multi-user.target
+After=systemd-udevd.service basic.target
 
 [Service]
 Type=simple
